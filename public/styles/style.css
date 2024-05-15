@@ -1,0 +1,50 @@
+body{
+    animation: sky 4s infinite linear;
+    /* background-image: url("sky.png"); */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes sky {
+    0%{ background-color: rgb(65, 110, 136);}
+    50%{ background-color: rgb(104, 175, 206);}
+    100%{ background-color: rgb(65, 110, 136);}
+
+
+}
+
+.container-fluid{
+    /* text-align: center; */
+    margin-top: 7%;
+}
+
+.card{
+
+    margin-top: 5%;
+    margin-left: 41%;
+}
+input{
+    margin-bottom: 2%;
+    height: 50px;
+    width: 300px;
+    border-radius: 4px;
+    margin-left: 43%;
+}
+
+button{
+    padding: 10px 40px 10px 40px;
+    margin-left: 46.6%;
+    border-radius: 4px;
+    font-size: 25px;
+}
+.card-body{
+    margin-left: 26%;
+}
+.card-header{
+    text-align: center;
+}
+
